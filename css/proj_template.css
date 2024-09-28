@@ -1,24 +1,5 @@
-.proj-prev-img {
-    border-radius: 7px;
-}
-
 .feature-icon {
     width: 3rem;
     height: 3rem;
     border-radius: .75rem;
-}
-
-.mobile-carousel-item-container {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    background-color: #222222;
-}
-
-.mobile-carousel-item {
-    width: 30%;
-}
-
-.bold-span {
-    color: #0d6efd;
 }

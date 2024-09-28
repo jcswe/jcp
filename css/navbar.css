@@ -11,7 +11,7 @@
     font-size: 14px;
 }
 
-.text-body-secondary {
+a.text-body-secondary {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -21,4 +21,47 @@
 a.text-body-secondary:hover {
     color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1)) !important;
     text-decoration: underline;
+}
+
+/* custom button */
+#jc-custom-btn {
+    border: #cfe2ff solid 1px;
+    background-color: #cfe2ff;
+    color: #052c65;
+}
+
+#jc-custom-btn:hover {
+    border: #c1d8fc solid 1px;
+    background-color: #c1d8fc;
+    color: #052c65;
+}
+
+#jc-custom-btn:focus {
+    border: #c1d8fc solid 1px;
+    background-color: #c1d8fc;
+    color: #052c65;
+}
+
+#jc-custom-btn:focus-visible {
+    border: #c1d8fc solid 1px;
+    background-color: #c1d8fc;
+    color: #052c65;
+}
+
+#jc-custom-btn:focus-within {
+    border: #c1d8fc solid 1px;
+    background-color: #c1d8fc;
+    color: #052c65;
+}
+
+#jc-custom-btn:target {
+    border: #c1d8fc solid 1px;
+    background-color: #c1d8fc;
+    color: #052c65;
+}
+
+#jc-custom-btn:active {
+    border: #c1d8fc solid 1px;
+    background-color: #c1d8fc;
+    color: #052c65;
 }
